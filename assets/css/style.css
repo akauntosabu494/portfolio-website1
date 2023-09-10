@@ -1,5 +1,11 @@
 @charset "utf-8";
 
+@media screen and (max-width: 768px){
+    .abc {
+        color: red;
+    }
+}
+
 /*
 Base style
 */
@@ -41,6 +47,19 @@ grid
 
 .grid-col-4 > .grid-item {
     width: 25%;
+}
+
+@media screen and (max-width: 768px){
+    .grid 
+    display: block;
+    }
+    .grid-col-2 > .grid-item,
+    .grid-col-3 > .grid-item,
+    .grid-col-4 > .grid-item {
+        width: 100%;
+        margin: 20px 0;
+    }
+
 }
 
 /*
