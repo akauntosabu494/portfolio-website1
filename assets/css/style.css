@@ -65,6 +65,28 @@ section
 }
 
 /*
+header
+*/
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+}
+.header-logo {}
+.header-logo > a {}
+.header-nav {}
+.header-navlist {}
+.header-navitem {}
+.header-navitem > a {}
+
+/*
 hero
 */
 .hero {
