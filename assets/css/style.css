@@ -84,6 +84,7 @@ header
 }
 .header-logo > a {
     display: block;
+    color: transparent;
 }
 /* .header-nav {} */
 .header-navlist {
